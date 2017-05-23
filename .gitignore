@@ -1,0 +1,7 @@
+out.*
+*.txt
+*.sh
+*.patch
+*.gcd
+*.o
+*.a
