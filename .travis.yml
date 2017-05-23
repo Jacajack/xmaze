@@ -1,0 +1,10 @@
+sudo: required
+language: c
+
+before_install:
+    - sudo apt-get update
+install:
+    - sudo apt-get install libx11-dev
+script:
+    - make clean
+    - make all
