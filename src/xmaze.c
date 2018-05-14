@@ -155,7 +155,7 @@ void render( )
 
 	//Stack usage information
 	char str[128];
-	if ( !status.done ) sprintf( str, "stack size: %d", stacklen );
+	if ( !status.done ) sprintf( str, "stack size: %ld", (long) stacklen );
 	else if ( status.paused ) sprintf( str, "Press P to unpause!" );
 	else sprintf( str, "Done!" );
 	XSetForeground( display, gfxc, gfxColor( "black" ) );
